@@ -1,0 +1,34 @@
+[0.055s] Invoking command in '/home/mohamed/ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/mohamed/ws/build/serial -- -j4 -l4
+[0.264s] [ 28%] Built target serial
+[0.264s] [ 42%] Built target gtest_main
+[0.264s] [ 57%] Built target gtest
+[0.363s] [ 71%] Built target serial-test
+[0.365s] [ 85%] Built target serial_example
+[0.383s] [100%] Built target serial-test-timer
+[0.433s] Invoked command in '/home/mohamed/ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/mohamed/ws/build/serial -- -j4 -l4
+[0.620s] Invoking command in '/home/mohamed/ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/mohamed/ws/build/serial
+[0.644s] -- Install configuration: ""
+[0.646s] -- Execute custom install script
+[0.646s] -- Up-to-date symlink: /home/mohamed/ws/install/serial/lib/libserial.a
+[0.647s] -- Up-to-date symlink: /home/mohamed/ws/install/serial/include/serial/serial.h
+[0.647s] -- Up-to-date symlink: /home/mohamed/ws/install/serial/include/serial/v8stdint.h
+[0.648s] -- Up-to-date symlink: /home/mohamed/ws/install/serial/share/serial/environment/library_path.sh
+[0.648s] -- Up-to-date symlink: /home/mohamed/ws/install/serial/share/serial/environment/library_path.dsv
+[0.649s] -- Up-to-date symlink: /home/mohamed/ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[0.649s] -- Up-to-date symlink: /home/mohamed/ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[0.653s] -- Up-to-date symlink: /home/mohamed/ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[0.653s] -- Up-to-date symlink: /home/mohamed/ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[0.654s] -- Up-to-date symlink: /home/mohamed/ws/install/serial/share/serial/environment/path.sh
+[0.654s] -- Up-to-date symlink: /home/mohamed/ws/install/serial/share/serial/environment/path.dsv
+[0.655s] -- Up-to-date symlink: /home/mohamed/ws/install/serial/share/serial/local_setup.bash
+[0.658s] -- Up-to-date symlink: /home/mohamed/ws/install/serial/share/serial/local_setup.sh
+[0.659s] -- Up-to-date symlink: /home/mohamed/ws/install/serial/share/serial/local_setup.zsh
+[0.659s] -- Up-to-date symlink: /home/mohamed/ws/install/serial/share/serial/local_setup.dsv
+[0.659s] -- Symlinking: /home/mohamed/ws/install/serial/share/serial/package.dsv
+[0.683s] -- Up-to-date symlink: /home/mohamed/ws/install/serial/share/ament_index/resource_index/packages/serial
+[0.683s] -- Up-to-date symlink: /home/mohamed/ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[0.683s] -- Up-to-date symlink: /home/mohamed/ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[0.684s] -- Up-to-date symlink: /home/mohamed/ws/install/serial/share/serial/cmake/serialConfig.cmake
+[0.685s] -- Up-to-date symlink: /home/mohamed/ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[0.685s] -- Up-to-date symlink: /home/mohamed/ws/install/serial/share/serial/package.xml
+[0.695s] Invoked command in '/home/mohamed/ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/mohamed/ws/build/serial

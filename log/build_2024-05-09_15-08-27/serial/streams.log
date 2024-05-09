@@ -1,0 +1,81 @@
+[0.031s] Invoking command in '/home/mohamed/ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/mohamed/ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mohamed/ws/install/serial
+[0.553s] -- The C compiler identification is GNU 11.4.0
+[0.727s] -- The CXX compiler identification is GNU 11.4.0
+[0.752s] -- Detecting C compiler ABI info
+[0.960s] -- Detecting C compiler ABI info - done
+[0.994s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.995s] -- Detecting C compile features
+[0.996s] -- Detecting C compile features - done
+[1.007s] -- Detecting CXX compiler ABI info
+[1.252s] -- Detecting CXX compiler ABI info - done
+[1.288s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.289s] -- Detecting CXX compile features
+[1.291s] -- Detecting CXX compile features - done
+[1.300s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.692s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.853s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.971s] -- Found ament_cmake_gtest: 1.3.8 (/opt/ros/humble/share/ament_cmake_gtest/cmake)
+[2.192s] -- Found Boost: /usr/lib/x86_64-linux-gnu/cmake/Boost-1.74.0/BoostConfig.cmake (found version "1.74.0")  
+[2.246s] -- Found gtest sources under '/opt/ros/humble/src/gtest_vendor': C++ tests using 'Google Test' will be built
+[2.305s] -- Looking for pthread.h
+[2.687s] -- Looking for pthread.h - found
+[2.688s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.959s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.967s] -- Found Threads: TRUE  
+[3.225s] -- Configuring done
+[3.273s] -- Generating done
+[3.280s] -- Build files have been written to: /home/mohamed/ws/build/serial
+[3.299s] Invoked command in '/home/mohamed/ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/mohamed/ws/src/serial -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mohamed/ws/install/serial
+[3.301s] Invoking command in '/home/mohamed/ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/mohamed/ws/build/serial -- -j4 -l4
+[3.450s] [  7%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/unix.cc.o[0m
+[3.479s] [ 14%] [32mBuilding CXX object CMakeFiles/serial.dir/src/serial.cc.o[0m
+[3.503s] [ 21%] [32mBuilding CXX object gtest/CMakeFiles/gtest.dir/src/gtest-all.cc.o[0m
+[3.518s] [ 28%] [32mBuilding CXX object gtest/CMakeFiles/gtest_main.dir/src/gtest_main.cc.o[0m
+[7.643s] [ 35%] [32mBuilding CXX object CMakeFiles/serial.dir/src/impl/list_ports/list_ports_linux.cc.o[0m
+[9.264s] [ 42%] [32m[1mLinking CXX static library libserial.a[0m
+[9.464s] [ 42%] Built target serial
+[9.536s] [ 50%] [32mBuilding CXX object CMakeFiles/serial_example.dir/examples/serial_example.cc.o[0m
+[10.061s] [ 57%] [32m[1mLinking CXX static library libgtest_main.a[0m
+[10.201s] [ 57%] Built target gtest_main
+[10.665s] [ 64%] [32m[1mLinking CXX executable serial_example[0m
+[11.010s] [ 64%] Built target serial_example
+[17.923s] [ 71%] [32m[1mLinking CXX static library libgtest.a[0m
+[18.096s] [ 71%] Built target gtest
+[18.149s] [ 78%] [32mBuilding CXX object tests/CMakeFiles/serial-test-timer.dir/unit/unix_timer_tests.cc.o[0m
+[18.150s] [ 85%] [32mBuilding CXX object tests/CMakeFiles/serial-test.dir/unix_serial_tests.cc.o[0m
+[21.170s] In file included from [01m[K/usr/include/boost/bind.hpp:30[m[K,
+[21.170s]                  from [01m[K/home/mohamed/ws/src/serial/tests/unix_serial_tests.cc:23[m[K:
+[21.170s] [01m[K/usr/include/boost/bind.hpp:36:1:[m[K [01;36m[Knote: [m[K‘[01m[K#pragma message: The practice of declaring the Bind placeholders (_1, _2, ...) in the global namespace is deprecated. Please use <boost/bind/bind.hpp> + using namespace boost::placeholders, or define BOOST_BIND_GLOBAL_PLACEHOLDERS to retain the current behavior.[m[K’
+[21.171s]    36 | [01;36m[KBOOST_PRAGMA_MESSAGE[m[K(
+[21.171s]       | [01;36m[K^~~~~~~~~~~~~~~~~~~~[m[K
+[21.183s] [ 92%] [32m[1mLinking CXX executable serial-test-timer[0m
+[21.717s] [ 92%] Built target serial-test-timer
+[21.818s] [100%] [32m[1mLinking CXX executable serial-test[0m
+[22.423s] [100%] Built target serial-test
+[22.465s] Invoked command in '/home/mohamed/ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/mohamed/ws/build/serial -- -j4 -l4
+[22.597s] Invoking command in '/home/mohamed/ws/build/serial': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/mohamed/ws/build/serial
+[22.618s] -- Install configuration: ""
+[22.619s] -- Execute custom install script
+[22.620s] -- Symlinking: /home/mohamed/ws/install/serial/lib/libserial.a
+[22.652s] -- Symlinking: /home/mohamed/ws/install/serial/include/serial/serial.h
+[22.675s] -- Symlinking: /home/mohamed/ws/install/serial/include/serial/v8stdint.h
+[22.698s] -- Symlinking: /home/mohamed/ws/install/serial/share/serial/environment/library_path.sh
+[22.721s] -- Symlinking: /home/mohamed/ws/install/serial/share/serial/environment/library_path.dsv
+[22.762s] -- Symlinking: /home/mohamed/ws/install/serial/share/ament_index/resource_index/package_run_dependencies/serial
+[22.795s] -- Symlinking: /home/mohamed/ws/install/serial/share/ament_index/resource_index/parent_prefix_path/serial
+[22.823s] -- Symlinking: /home/mohamed/ws/install/serial/share/serial/environment/ament_prefix_path.sh
+[22.855s] -- Symlinking: /home/mohamed/ws/install/serial/share/serial/environment/ament_prefix_path.dsv
+[22.881s] -- Symlinking: /home/mohamed/ws/install/serial/share/serial/environment/path.sh
+[22.903s] -- Symlinking: /home/mohamed/ws/install/serial/share/serial/environment/path.dsv
+[22.924s] -- Symlinking: /home/mohamed/ws/install/serial/share/serial/local_setup.bash
+[22.947s] -- Symlinking: /home/mohamed/ws/install/serial/share/serial/local_setup.sh
+[22.969s] -- Symlinking: /home/mohamed/ws/install/serial/share/serial/local_setup.zsh
+[22.990s] -- Symlinking: /home/mohamed/ws/install/serial/share/serial/local_setup.dsv
+[23.014s] -- Symlinking: /home/mohamed/ws/install/serial/share/serial/package.dsv
+[23.034s] -- Symlinking: /home/mohamed/ws/install/serial/share/ament_index/resource_index/packages/serial
+[23.064s] -- Symlinking: /home/mohamed/ws/install/serial/share/serial/cmake/ament_cmake_export_include_directories-extras.cmake
+[23.086s] -- Symlinking: /home/mohamed/ws/install/serial/share/serial/cmake/ament_cmake_export_libraries-extras.cmake
+[23.109s] -- Symlinking: /home/mohamed/ws/install/serial/share/serial/cmake/serialConfig.cmake
+[23.131s] -- Symlinking: /home/mohamed/ws/install/serial/share/serial/cmake/serialConfig-version.cmake
+[23.152s] -- Symlinking: /home/mohamed/ws/install/serial/share/serial/package.xml
+[23.177s] Invoked command in '/home/mohamed/ws/build/serial' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/mohamed/ws/build/serial

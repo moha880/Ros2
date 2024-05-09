@@ -1,0 +1,36 @@
+[0.040s] Invoking command in '/home/mohamed/ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/mohamed/ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mohamed/ws/install/serial:/home/mohamed/ws/install/articubot_one:/home/mohamed/ros2_ws/install/serial_motor_demo_msgs:/home/mohamed/ros2_ws/install/diffdrive_arduino:/home/mohamed/ros2_ws/install/serial:/home/mohamed/ros2_ws/install/diff_bot:/home/mohamed/ros2_ws/install/articubot_one:/home/mohamed/ros2_ws/install/serial_motor_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/mohamed/ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/mohamed/ws/build/diffdrive_arduino -- -j4 -l4
+[0.298s] [ 42%] Built target fake_robot
+[0.308s] [100%] Built target diffdrive_arduino
+[0.348s] Invoked command in '/home/mohamed/ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/mohamed/ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mohamed/ws/install/serial:/home/mohamed/ws/install/articubot_one:/home/mohamed/ros2_ws/install/serial_motor_demo_msgs:/home/mohamed/ros2_ws/install/diffdrive_arduino:/home/mohamed/ros2_ws/install/serial:/home/mohamed/ros2_ws/install/diff_bot:/home/mohamed/ros2_ws/install/articubot_one:/home/mohamed/ros2_ws/install/serial_motor_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/mohamed/ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --build /home/mohamed/ws/build/diffdrive_arduino -- -j4 -l4
+[0.482s] Invoking command in '/home/mohamed/ws/build/diffdrive_arduino': AMENT_PREFIX_PATH=/home/mohamed/ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mohamed/ws/install/serial:/home/mohamed/ws/install/articubot_one:/home/mohamed/ros2_ws/install/serial_motor_demo_msgs:/home/mohamed/ros2_ws/install/diffdrive_arduino:/home/mohamed/ros2_ws/install/serial:/home/mohamed/ros2_ws/install/diff_bot:/home/mohamed/ros2_ws/install/articubot_one:/home/mohamed/ros2_ws/install/serial_motor_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/mohamed/ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/mohamed/ws/build/diffdrive_arduino
+[0.518s] -- Install configuration: ""
+[0.520s] -- Execute custom install script
+[0.523s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino//robot_hardware.xml
+[0.523s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino//fake_robot_hardware.xml
+[0.523s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/lib/libdiffdrive_arduino.so
+[0.524s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/lib/libfake_robot.so
+[0.526s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino/controllers/robot_controller_example.yaml
+[0.526s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino/__pycache__/test_robot.launch.cpython-310.pyc
+[0.526s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino/fake_robot.launch.py
+[0.527s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino/test_robot.launch.py
+[0.527s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.sh
+[0.528s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/library_path.dsv
+[0.528s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/ament_index/resource_index/package_run_dependencies/diffdrive_arduino
+[0.529s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/ament_index/resource_index/parent_prefix_path/diffdrive_arduino
+[0.529s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.sh
+[0.529s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/ament_prefix_path.dsv
+[0.530s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.sh
+[0.536s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino/environment/path.dsv
+[0.536s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.bash
+[0.537s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.sh
+[0.537s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.zsh
+[0.537s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino/local_setup.dsv
+[0.537s] -- Symlinking: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino/package.dsv
+[0.582s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/ament_index/resource_index/packages/diffdrive_arduino
+[0.582s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/ament_index/resource_index/hardware_interface__pluginlib__plugin/diffdrive_arduino
+[0.583s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_libraries-extras.cmake
+[0.583s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/ament_cmake_export_dependencies-extras.cmake
+[0.583s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig.cmake
+[0.583s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino/cmake/diffdrive_arduinoConfig-version.cmake
+[0.583s] -- Up-to-date symlink: /home/mohamed/ws/install/diffdrive_arduino/share/diffdrive_arduino/package.xml
+[0.585s] Invoked command in '/home/mohamed/ws/build/diffdrive_arduino' returned '0': AMENT_PREFIX_PATH=/home/mohamed/ws/install/serial:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/mohamed/ws/install/serial:/home/mohamed/ws/install/articubot_one:/home/mohamed/ros2_ws/install/serial_motor_demo_msgs:/home/mohamed/ros2_ws/install/diffdrive_arduino:/home/mohamed/ros2_ws/install/serial:/home/mohamed/ros2_ws/install/diff_bot:/home/mohamed/ros2_ws/install/articubot_one:/home/mohamed/ros2_ws/install/serial_motor_demo:/opt/ros/humble LD_LIBRARY_PATH=/home/mohamed/ws/install/serial/lib:${LD_LIBRARY_PATH} /usr/bin/cmake --install /home/mohamed/ws/build/diffdrive_arduino

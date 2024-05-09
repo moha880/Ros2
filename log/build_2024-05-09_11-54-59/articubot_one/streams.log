@@ -1,0 +1,40 @@
+[0.068s] Invoking command in '/home/mohamed/ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/mohamed/ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mohamed/ws/install/articubot_one
+[1.071s] -- The C compiler identification is GNU 11.4.0
+[1.606s] -- The CXX compiler identification is GNU 11.4.0
+[1.724s] -- Detecting C compiler ABI info
+[2.044s] -- Detecting C compiler ABI info - done
+[2.082s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.083s] -- Detecting C compile features
+[2.114s] -- Detecting C compile features - done
+[2.139s] -- Detecting CXX compiler ABI info
+[2.419s] -- Detecting CXX compiler ABI info - done
+[2.467s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.468s] -- Detecting CXX compile features
+[2.470s] -- Detecting CXX compile features - done
+[2.558s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.047s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[3.289s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.568s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.932s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.947s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.949s] -- Added test 'lint_cmake' to check CMake code style
+[3.951s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.956s] -- Added test 'xmllint' to check XML markup files
+[3.979s] -- Configuring done
+[3.989s] -- Generating done
+[3.993s] -- Build files have been written to: /home/mohamed/ws/build/articubot_one
+[4.002s] Invoked command in '/home/mohamed/ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake /home/mohamed/ws/src/articubot_one -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/mohamed/ws/install/articubot_one
+[4.005s] Invoking command in '/home/mohamed/ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/mohamed/ws/build/articubot_one -- -j4 -l4
+[4.099s] Invoked command in '/home/mohamed/ws/build/articubot_one' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --build /home/mohamed/ws/build/articubot_one -- -j4 -l4
+[4.173s] Invoking command in '/home/mohamed/ws/build/articubot_one': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/mohamed/ws/build/articubot_one
+[4.193s] -- Install configuration: ""
+[4.194s] -- Execute custom install script
+[4.195s] [31mCMake Error at ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:100 (message):
+[4.196s]   ament_cmake_symlink_install_directory() can't find
+[4.196s]   '/home/mohamed/ws/src/articubot_one/config'
+[4.196s] Call Stack (most recent call first):
+[4.196s]   ament_cmake_symlink_install/ament_cmake_symlink_install.cmake:314 (ament_cmake_symlink_install_directory)
+[4.196s]   cmake_install.cmake:46 (include)
+[4.196s] 
+[4.197s] [0m
+[4.199s] Invoked command in '/home/mohamed/ws/build/articubot_one' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/mohamed/ros2_ws/install/serial_motor_demo:/opt/ros/humble /usr/bin/cmake --install /home/mohamed/ws/build/articubot_one
